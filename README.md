@@ -9,8 +9,8 @@ Ensure that within the directory containing the files listed above the following
   2 - Quantum-Graphs-master from https://github.com/manroygood/Quantum-Graphs is downloaded and set up (see the relevent documentation).\
   3 - SpectrumScript.m is moved into the Quantum-Graphs-master directory.
 
-For additional information on the QGLAB software, please see the associated publication: https://doi.org/10.1137/23M1627729.\
-For the definitions of the tesselation types, network boundary types, point pattern types, etc., please see the associated manuscript (DOI TBD).\ 
+For additional information on the QGLAB software, please see the associated publication: https://doi.org/10.1137/23M1627729. \
+For the definitions of the tesselation types, network boundary types, point pattern types, etc., please see the associated manuscript (DOI TBD). 
 
 ## To run from the command line using sbatch
 sbatch QGLAB.cmd conf N tess bdry name equi p1 p2 
