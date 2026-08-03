@@ -21,7 +21,7 @@ conf - (string) the type of configuration desired. This includes:\
   3 - 'Ge' for loading in a "Ge-type" configuration file (defined below).\
   4 - 'TJ' for loading in a "TJ-type" configuration file (defined below).\
   5 - 'Ti' for a tiling-type configuration.\
-N - (integer) number of particles in the configuration (either prescribed (and rounded to the nearest square number) for the Z2 URL, or needed as an input for Ge/TJ filetypes). In instances where the number of particles is hard-coded (A2 URL, Lattices) this parameter is not used.
+N - (integer) number of particles in the configuration (either prescribed (and rounded to the nearest square number) for the Z2 URL, or needed as an input for Ge/TJ filetypes). In instances where the number of particles is hard-coded (A2 URL, Lattices) this parameter is not used.\
 tess - (string) the type of tessellation used. This includes:\
 	1 - 'D' for Delaunay.\
 	2 - 'C' for Delaunay Centroidal.\
