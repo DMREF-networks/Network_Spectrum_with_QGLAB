@@ -10,7 +10,7 @@ Ensure that within the directory containing the files listed above the following
   3 - SpectrumScript.m is moved into the Quantum-Graphs-master directory.
 
 For additional information on the QGLAB software, please see the associated publication: https://doi.org/10.1137/23M1627729. \
-For the definitions of the tesselation types, network boundary types, point pattern types, etc., please see the associated manuscript (DOI TBD). 
+For the definitions of the tesselation types, network border schemes, point pattern types, etc., please see the associated manuscript (DOI TBD). 
 
 ## To run from the command line using sbatch
 sbatch QGLAB.cmd conf N tess bdry name equi p1 p2 
@@ -26,7 +26,7 @@ tess - (string) the type of tessellation used. This includes:\
 	1 - 'D' for Delaunay.\
 	2 - 'C' for Delaunay Centroidal.\
 	3 - 'G' for Gabriel.\
-bdry - (string) the type of network boundary desired. This includes:\
+bdry - (string) the type of network border desired. This includes:\
   1 - 'delete' for delete boundary conditions.\
   2 - 'prune' for prune boundary conditions.\
   3 - 'clip' for clip boundary conditions.\
