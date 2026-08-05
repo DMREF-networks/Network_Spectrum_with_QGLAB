@@ -436,11 +436,10 @@ def clip_boundary(alledge,tcoords,latmat):
             clippoint = np.array([clippoint])
             tcoords = np.append(tcoords,clippoint,axis=0)
             
-            ###No, need to add in new points, look at how I did this for Chenxi...
             newedge[fixdex] = tcoords.shape[0] - 1
             #tcoords[i[fixdex]] = clippoint
             #havefixed.append(i[fixdex])
-            newedge[2] = np.linalg.norm(tcoords[i[0]]-tcoords[i[1]])
+            newedge[2] = np.linalg.norm(tcoords[newedge[0]]-tcoords[newedge[1]])
             edp.pop(dex)
             newedges.append(newedge)
             #edp[dex] = edp[dex][:3]
