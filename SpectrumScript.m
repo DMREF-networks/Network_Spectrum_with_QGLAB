@@ -34,6 +34,7 @@ LVec = edgelist(:,3)';
 LVect = LVec(It);
 LVecs = LVect(Is);
 nX = round(10*LVec);
+nX(nX<5) = 5;
 nXt = nX(It);
 nXs = nXt(Is);
 
